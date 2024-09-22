@@ -16,7 +16,11 @@ function displayImage(blob){
     let image = document.createElement('img');
     image.src = objectURL;
     document.body.appendChild(image);
+
+    image.setAttribute('class','stileimg');
 }
+
+
 
 
 
