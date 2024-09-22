@@ -11,4 +11,10 @@ button{
     background-color: rgb(175, 126, 61);
     color:#fff;
     margin-top:2rem;
+    transition: all;
+    transition-duration: .2s;
+}
+button:hover{
+    transform: scale(1.1,1.1);
+    background-color: rgb(141, 85, 11);
 }
